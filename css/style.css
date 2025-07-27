@@ -729,3 +729,12 @@ footer .footer-copyright {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+#mc_embed_signup {
+   margin-left: 25%;
+}
+
+#home > div > div > div > p {
+   text-align: justify;
+   padding-left: 15px;
+   padding-right: 15px;
+}
