@@ -712,4 +712,20 @@ footer .footer-copyright {
 
 }
 
+/* Center the form horizontally and vertically */
+.mailchimp-form-wrapper {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;    /* Centers vertically */
+  height: 100vh;          /* Full viewport height for vertical centering */
+}
+
+/* Optional: Add some padding and styling */
+.mailchimp-form-wrapper form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
