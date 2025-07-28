@@ -846,3 +846,4 @@ footer .footer-copyright {
 body > div.sk-ww-medium-publication-feed > div.sk_branding { display: none !important; }
 .sk_medium_publication_feed_white_pop_up .popup-content-holder p { text-align: justify !important; }
 .sk-read-more-btn { display: none !important; }
+body .sk-ww-medium-publication-feed { padding-left: 50px; padding-right: 50px; }
