@@ -671,7 +671,11 @@ footer .footer-copyright {
     display: none !important;
   }
 #home > div > div > div {
-  max-width: 50% !important;
+  width: auto !important;
+  }
+#mc_embed_signup {
+  margin-left: 0px !important;
+  width: auto !important;
   }
 }
 
