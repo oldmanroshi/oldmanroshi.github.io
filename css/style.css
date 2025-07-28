@@ -666,12 +666,12 @@ footer .footer-copyright {
 /*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/
-@media only screen and (max-width: 600px) {
-  body > div.navbar.navbar-default.navbar-static-top > div > div.navbar-header > a > img {
-    display: none;
+@media (max-width: 600px) {
+  .navbar-brand {
+    display: none !important;
   }
 #home > div > div > div {
-  max-width: 200px;
+  max-width: 50% !important;
   }
 }
 
