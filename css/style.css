@@ -828,3 +828,5 @@ footer .footer-copyright {
 }
 
 .contact-description { text-align: justify; }
+
+body > div.sk-ww-medium-publication-feed > div.sk-medium-publication-feed-container > div > div:nth-child(2) > div > div > div.sk_medium_publication_content > div > div.medium_publication_post_meta > div.sk-description { display: none !important; }
