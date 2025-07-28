@@ -747,7 +747,7 @@ footer .footer-copyright {
    display: none !important;
 }
 
-body > footer > div > div > div.col-md-3.col-sm-3 > img {
+.qrcode {
    max-width: 75px;
    width: auto;
    height: auto;
