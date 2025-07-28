@@ -834,3 +834,4 @@ footer .footer-copyright {
 .sk-read-more-btn { background-color: lightgray !important; }
 body > div.sk-ww-medium-publication-feed > div.sk_branding { display: none !important; }
 .sk_medium_publication_feed_white_pop_up .popup-content-holder p { text-align: justify !important; }
+.sk-read-more-btn { display: none !important; }
