@@ -818,10 +818,11 @@ footer .footer-copyright {
 }
 
 .form-submit {
-  width: 100%;
+  width: 25%;
   margin-top: 1.2rem;
-  background-color: #3124ca;
+  background-color: lightgray;
   color: #fff;
   padding: 13px 5px;
   border-radius: 0.375rem;
+  border: 0px;
 }
