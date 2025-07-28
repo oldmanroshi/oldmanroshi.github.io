@@ -826,3 +826,5 @@ footer .footer-copyright {
   border-radius: 0.375rem;
   border: 0px;
 }
+
+.contact-description { text-align: justify; }
