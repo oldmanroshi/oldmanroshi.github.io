@@ -103,7 +103,7 @@ a:hover, a:active, a:focus {
 
 .section-title {
   position: relative;
-  padding-bottom: 62px;
+  padding-bottom: 0px;
   text-align: center;
 }
 
@@ -823,5 +823,6 @@ footer .footer-copyright {
   background-color: lightgray;
   color: #fff;
   padding: 13px 5px;
-  border-radius: 0.375rem;
+  border-radius: 0rem;
+  border: lightgray;
 }
