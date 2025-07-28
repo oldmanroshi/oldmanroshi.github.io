@@ -97,8 +97,8 @@ a:hover, a:active, a:focus {
 #contact,
 #single-project,
 #blog-single-post {
-  padding-top: 80px;
-  padding-bottom: 120px;
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 
 .section-title {
@@ -793,12 +793,12 @@ footer .footer-copyright {
 .form-input,
 .form-textarea {
   padding: 0.5rem;
-  border: 1px solid #e5e7eb;
+  border: 1px solid lightgray;
   display: flex;
   height: 2.5rem;
   width: 100%;
   border-radius: 0.375rem;
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   line-height: 1.25rem;
 }
 
