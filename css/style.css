@@ -849,4 +849,4 @@ body > div.sk-ww-medium-publication-feed > div.sk_branding { display: none !impo
 .sk-read-more-btn { display: none !important; }
 body .sk-ww-medium-publication-feed { padding-left: 50px !important; padding-right: 50px !important; }
 .sk_medium_publication_feed_white_pop_up img, .sk_medium_publication_feed_white_pop_up figure { margin-bottom: 10px !important; }
-
+.sk-post-image { border-radius: 0px !important; }
