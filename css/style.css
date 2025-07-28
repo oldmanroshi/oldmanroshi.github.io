@@ -830,3 +830,6 @@ footer .footer-copyright {
 .contact-description { text-align: justify; }
 
 .sk-description { display: none !important; }
+.sk_medium_publication_feed_grid-content { margin: 0px !important; }
+.sk-read-more-btn { background-color: lightgray !important; }
+body > div.sk-ww-medium-publication-feed > div.sk_branding { display: none !important; }
