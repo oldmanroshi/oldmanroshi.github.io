@@ -738,3 +738,7 @@ footer .footer-copyright {
    padding-left: 15px;
    padding-right: 15px;
 }
+
+#es-media-card .es-box {
+   border-radius: 0px !important;
+}
