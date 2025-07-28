@@ -743,6 +743,6 @@ footer .footer-copyright {
    border-radius: 0px !important;
 }
 
-#mc_embed_signup_scroll > div.optionalParent > div > p > a > span {
+#mc_embed_signup_scroll > div.optionalParent > div > p > a > span > img {
    display: none !important;
 }
