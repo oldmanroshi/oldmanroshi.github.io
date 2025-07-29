@@ -607,6 +607,7 @@ footer {
     border-top: 1px solid #f0f0f0;
     padding: 100px 0px;
     position: relative;
+    margin-top: 100px;
 }
 
 footer .col-md-3 .fa {
