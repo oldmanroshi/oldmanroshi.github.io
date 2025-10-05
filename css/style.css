@@ -724,15 +724,15 @@ footer .footer-copyright {
   }
 
   .ism-slider { 
-	display: none;
+	display: none !important;
   }
 
 }
 
 @media (max-width: 1024px) {
 
-  .ism-sider {
-    display: none;
+  .ism-slider {
+    display: none !important;
   }
 }
 
