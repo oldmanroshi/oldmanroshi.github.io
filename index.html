@@ -23,6 +23,9 @@
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
 
+<link rel="stylesheet" href="ism/css/my-slider.css"/>
+<script src="ism/js/ism-2.2.min.js"></script>
+
 </head>
 <body>
 
@@ -64,25 +67,7 @@
 <section id="home">
      <div class="container">
           <div class="row">
-
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  
-  <img src="https://i.postimg.cc/9M3dQL4v/about-pageheading-01.jpg" style="width:100%">
-  
-</div>
-
-<div class="mySlides fade">
-  
-  <img src="https://i.postimg.cc/zBmCGxbD/about-pageheading-02.jpg" style="width:100%">
-  
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
-</div>			  
+			  
 <br>   
 			  
 <div class="col-md-12 col-sm-12">
@@ -272,44 +257,15 @@
      </div>
 </footer>
 
-
 <!-- SCRIPTS -->
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
 
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
 </body>
 </html>
+
 
 
 
