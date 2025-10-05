@@ -729,6 +729,13 @@ footer .footer-copyright {
 
 }
 
+@media (max-width: 1024px) {
+
+  .ism-sider {
+    display: none;
+  }
+}
+
 /* Center the form horizontally and vertically */
 .mailchimp-form-wrapper {
   display: flex;
