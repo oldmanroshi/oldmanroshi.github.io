@@ -288,44 +288,36 @@
 <script src="js/custom.js"></script>
 
 <script>
-<!-- 
-	var rotator1imgs = new Array("https://i.postimg.cc/9M3dQL4v/about-pageheading-01.jpg", "https://i.postimg.cc/zBmCGxbD/about-pageheading-02.jpg");
-	var rotator1lnks = new Array("", "");
-	var rotator1alt = new Array("", "");
-	var rotatorHtml = "";
-	var endJs = "";
+let slideIndex = 1;
+showSlides(slideIndex);
 
-	for(var img in rotator1imgs){
-		var thisImg = new Image();
-		thisImg.src = rotator1imgs[img];
-	}
-	var rotator1imgCt = 2;
-	var rotator1currentAd = 0;
-	var target = "";
-	var rotator1banner = document.getElementById('rotator1');
-	var rotator1link = document.getElementById('rotator1adLink');
-	
-	function rotator1cycle() {
-		var rotatorHtml = "";
-		var endJs = "";
-		if (rotator1currentAd == rotator1imgCt) {
-			rotator1currentAd = 0;
-		}
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-			if(rotator1lnks[rotator1currentAd] != ""){
-		rotatorHtml += '<a href="' + rotator1lnks[rotator1currentAd] + '" id="rotator1adLink"  target="_blank">';
-		endJs = "</a>";
-	}
-	rotatorHtml += '<img src="' + rotator1imgs[rotator1currentAd] + '" alt = "' + rotator1alt[rotator1currentAd] + '" id="rotator1">' + endJs;
-	document.getElementById("rotator1_div").innerHTML = rotatorHtml;	
-		rotator1currentAd++;
-		window.setTimeout(rotator1cycle,30000);
-	}
-	rotator1cycle();
-// -->
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
 </script>
 </body>
 </html>
+
 
 
 
