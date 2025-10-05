@@ -724,7 +724,7 @@ footer .footer-copyright {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
 
   .ism-slider {
     display: none !important;
